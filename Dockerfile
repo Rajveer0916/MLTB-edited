@@ -1,5 +1,6 @@
 FROM 412314/mltb:heroku
 
+RUN apt install mediainfo -y
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
